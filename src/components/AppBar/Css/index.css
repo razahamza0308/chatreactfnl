@@ -1,0 +1,10 @@
+.app-link:hover {
+    background-color: rgb(255 255 255 / 50%);
+}
+span.name-box {
+    font-weight: 600;
+}
+.menu-link{
+    text-decoration: none;
+    color: inherit;
+}

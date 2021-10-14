@@ -1,0 +1,74 @@
+/* body{
+  background-image: url(./assests/images/hero-bg.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+.Light{
+  background-color: white;
+  color: black;
+  /* text-align: center; */
+}
+
+
+h1 {
+  font-weight: 900;
+}
+.login-input {
+  margin: 20px 10px;
+}
+button.btn {
+  width: 100px;
+  height: 35px;
+  font-weight: 900;
+  border-radius: 10px;
+  margin: 15px;
+  border: 0;
+  background-color: #b7c6d1;
+}
+
+
+
+.box {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  width: 50vw;
+  min-width: 250px;
+  box-shadow: 0px 0px 2px 0px grey,0 0 21px 1px white inset;
+  align-items: center;
+  padding: 20px;
+  color: black;
+  background: rgb(255 255 255 / 50%);
+  margin: 20px auto;
+  border-radius: 20px;
+}
+.box div {margin: 5px auto;}
+.MuiGrid-root.MuiGrid-container.MuiGrid-spacing-xs-undefined.MuiGrid-direction-xs-column.grid.css-1ewlecp-MuiGrid-root {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  height: 90vh;
+  flex-direction: column;
+  align-items: center;
+}
+button.link-btn {
+  color: inherit;
+  font-weight: 900;
+  background: 0;
+  margin: 5px;
+  border: 0;
+  padding: 8px;
+  font-size: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button.link-btn:hover {
+  text-decoration: none;
+  background-color: grey;
+  border-radius: 10px;
+}
